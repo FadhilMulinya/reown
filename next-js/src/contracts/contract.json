@@ -1,0 +1,96 @@
+{
+    "contractAddress": "0x21eAeDbb969A9F970202FE5fd353A4d2514ED518",
+    "abi": [
+        {
+            "type": "function",
+            "name": "createTask",
+            "inputs": [
+                {
+                    "name": "_title",
+                    "type": "string",
+                    "internalType": "string"
+                },
+                {
+                    "name": "_content",
+                    "type": "string",
+                    "internalType": "string"
+                }
+            ],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        },
+        {
+            "type": "function",
+            "name": "deleteTask",
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        },
+        {
+            "type": "function",
+            "name": "markTaskDone",
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        },
+        {
+            "type": "function",
+            "name": "readTask",
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string",
+                    "internalType": "string"
+                },
+                {
+                    "name": "",
+                    "type": "string",
+                    "internalType": "string"
+                },
+                {
+                    "name": "",
+                    "type": "bool",
+                    "internalType": "bool"
+                }
+            ],
+            "stateMutability": "view"
+        },
+        {
+            "type": "function",
+            "name": "updateTask",
+            "inputs": [
+                {
+                    "name": "_id",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                },
+                {
+                    "name": "_content",
+                    "type": "string",
+                    "internalType": "string"
+                }
+            ],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        }
+    ]
+}
